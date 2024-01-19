@@ -1,0 +1,1 @@
+//draw_sprite(sBg,0,0,0)

@@ -1,0 +1,1 @@
+text = "\nTip: Press \"S\" or Down Arrow\n to fall faster"

@@ -1,0 +1,1 @@
+if debug room_goto(gameRoom)

@@ -1,0 +1,11 @@
+if(!dead){
+	draw_self()
+	}else{
+	dx+=0.2
+	dy+=dspd
+	dspd+=0.3
+	image_angle+=10
+draw_sprite_ext(sprite_index,image_index,dx,dy,1,1,image_angle,c_white,1)	
+if(dy>900){instance_destroy(self)}
+}
+//draw_line(x+(34*ang),y-60,x+(34*ang),y-5)

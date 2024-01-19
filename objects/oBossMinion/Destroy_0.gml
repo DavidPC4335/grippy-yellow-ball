@@ -1,0 +1,1 @@
+effect_create_below(ef_explosion,x,y,1000,c_red)
