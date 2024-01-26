@@ -1,8 +1,17 @@
 draw_self()
+	
 /// @description Insert description here
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
+
+if(tutorial && stateSlider<=99){
+	draw_sprite(sWASD,0,240,272+sin(t)*5);
+	t+=0.1
+	oTutorial.shown =false
+}
+
+
 if stateSlider >0{
 	var off =stateSlider*2
 	draw_set_color(c_white)
@@ -14,6 +23,15 @@ if stateSlider >99{
 	draw_set_color(c_black)
 	draw_set_halign(fa_center);draw_set_font(signFont)
 draw_text(x,y-off+10,text)	
+
+
+if(tutorial){
+oTutorial.shown =true
+}
+
+
+
+
 if(sprite_index == sDave){
 room_goto(Titlescreen)
 //show_message("FUCK YOU");
