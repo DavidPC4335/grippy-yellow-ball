@@ -34,10 +34,10 @@ function ImageLoadBar_hook(ctx, width, height, total, current, image) {
 	var barHeight = getf("bar_height", 20);
 	var barBorderWidth = getf("bar_border_width", 2);
 	var barOffset = getf("bar_offset", 10);
-	// background:
+	// background for bar:
 	ctx.fillStyle = backgroundColor;
 	ctx.fillRect(0, 0, width, height);
-	// image:
+	// image (provided from splash screen attributes):
 	var totalHeight, barTop;
 	if (image != null) {
 		var rect = getw("image_rect");

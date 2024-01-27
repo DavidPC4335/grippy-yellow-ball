@@ -85,6 +85,7 @@
     {"id":{"name":"oBtn","path":"objects/oBtn/oBtn.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"update_stars","path":"scripts/update_stars/update_stars.yy",},"order":2,},
+    {"id":{"name":"bodyFont","path":"fonts/bodyFont/bodyFont.yy",},"order":3,},
     {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},"order":27,},
     {"id":{"name":"oDeadBoss1","path":"objects/oDeadBoss1/oDeadBoss1.yy",},"order":4,},
     {"id":{"name":"play_theme","path":"scripts/play_theme/play_theme.yy",},"order":0,},

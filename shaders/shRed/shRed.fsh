@@ -1,5 +1,5 @@
 //
-// Simple passthrough fragment shader
+// Simple passthrough fragment shader that adds a red tint to image
 //
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;

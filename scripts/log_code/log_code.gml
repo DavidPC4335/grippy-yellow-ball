@@ -20,7 +20,7 @@ default:
 break;
 }
 }
-
+//excecutes debug code functions(unlocks levels, allows flying)
 function debugCode(){
 	
 	if(instance_exists(oPlayer)){
