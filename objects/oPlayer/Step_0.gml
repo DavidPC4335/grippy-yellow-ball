@@ -3,11 +3,20 @@ efy=0
 f++
 ///nv
 if(f>=60){f=0;secs++}
-var left = keyboard_check(ord("A"))||keyboard_check(vk_left)
-var right = keyboard_check(ord("D"))||keyboard_check(vk_right)
+left = keyboard_check(ord("A"))||keyboard_check(vk_left)
+right = keyboard_check(ord("D"))||keyboard_check(vk_right)
 jump = keyboard_check(vk_space) || keyboard_check(ord("W"))||keyboard_check(vk_up)
+
+down = keyboard_check(ord("S")) || keyboard_check(vk_down)
+if(isMobile){
+if(instance_exists(conWorld)){
+conWorld.getJoystickPos()	
+}
+}
 var xmove = (right-left)
-var down = keyboard_check(ord("S")) || keyboard_check(vk_down)
+
+
+
 var xoff =0
 onGround =false
 var onSurface =false,onCeiling =false,sticky =true

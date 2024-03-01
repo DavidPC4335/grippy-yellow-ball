@@ -1,3 +1,5 @@
+
+
 //x = 0
 //y = 0
 colours = [c_black,make_color_rgb(69,123,149),c_black,make_color_rgb(160,160,170),c_black,c_black]
@@ -26,6 +28,7 @@ camera = camera_create()
 focusFrames =0
 shake_intensity = 0
 shake_duration = 0
+isMobile =false
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)
 var pm = matrix_build_projection_ortho(room_width,room_height,1,1000)
 text ="test";
@@ -44,4 +47,8 @@ function newShape(shape){
 	focusObj = shape;
 	focusFrames = 100;
 	text = "New Shape Discovered!"
+}
+
+function getJoystickInput(){
+isMobile =true;
 }

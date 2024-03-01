@@ -50,3 +50,5 @@ sz[i] = random(10)
 }
 draw_set_alpha(1);
 
+
+
