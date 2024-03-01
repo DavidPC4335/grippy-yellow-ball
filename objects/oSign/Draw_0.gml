@@ -6,7 +6,7 @@ draw_self()
 // You can write your code in this editor
 
 if(tutorial && stateSlider<=99){
-	draw_sprite(sWASD,0,240,272+sin(t)*5);
+	draw_sprite(sWASD,global.isMobile,240,272+sin(t)*5);
 	t+=0.1
 	oTutorial.shown =false
 }

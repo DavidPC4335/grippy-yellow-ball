@@ -8,7 +8,7 @@ right = keyboard_check(ord("D"))||keyboard_check(vk_right)
 jump = keyboard_check(vk_space) || keyboard_check(ord("W"))||keyboard_check(vk_up)
 
 down = keyboard_check(ord("S")) || keyboard_check(vk_down)
-if(isMobile){
+if(global.isMobile){
 if(instance_exists(conWorld)){
 conWorld.getJoystickPos()	
 }

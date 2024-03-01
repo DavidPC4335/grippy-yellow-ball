@@ -65,5 +65,9 @@ for(var i=0;i<array_length(global.shapeDiscovered);i++){
 	}
 }
 
-
+drawn =false
+}else if (room!=TransitionRoom && ( room !=Titlescreen || global.isMobile)){
+drawn =true;
+x = oCamera.x+room_width/2 - 70;
+y = oCamera.y-room_height/2+50
 }

@@ -1,3 +1,16 @@
+global.isMobile = (os_browser == browser_ie_mobile || os_browser == browser_safari_mobile)
+if(os_type == os_gxgames){
+var _info = os_get_info();
+
+var mob = ds_map_find_value(_info,"mobile");
+//show_message(mob);
+if (mob)
+{
+global.isMobile =true;
+}	
+}
+drawn =false;
+
 
 init =false
 

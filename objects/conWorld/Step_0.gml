@@ -10,13 +10,13 @@ for(var i=0;i<array_length(global.shapes);i++){
 }
 
 
-if(oPlayer.isMobile){
+if(global.isMobile){
 	var mx = mouse_x-cx,my = mouse_y-cy
 	var dist = point_distance(jx,jy,mx,my);
 	if(mouse_check_button_pressed(mb_left)){
 		if(dist>jr){
 			if(instance_exists(conPauseMenu)){
-				if(!conPauseMenu.pausedGame){
+				if(!conPauseMenu.pausedGame && my>room_height/2){
 			jx = mx;
 			jy = my;
 				}
@@ -29,15 +29,12 @@ if(oPlayer.isMobile){
 		joffx=0;
 		joffy=0;
 	}else if(mouse_check_button(mb_left)){
-		if(abs(mx-jx) <= jr){
+	if(point_distance(jx,jy,mx,my)<=jr){
 			joffx = mx-jx
-		}else{
-			joffx = sign(mx-jx)*jr
-		}
-		if(abs(my-jy) <= jr){
 			joffy = my-jy
-		}else{
-			joffy = sign(my-jy)*jr
-		}
+	}else{
+		joffx = lengthdir_x(jr,point_direction(jx,jy,mx,my))	
+		joffy = lengthdir_y(jr,point_direction(jx,jy,mx,my))	
+	}
 	}
 }

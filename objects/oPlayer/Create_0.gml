@@ -1,15 +1,6 @@
-/// @description Insert description here
+
 // You can write your code in this editor
 debug =false
-isMobile = (os_browser == browser_ie_mobile || os_browser == browser_safari_mobile)
-if(os_type == os_gxgames){
-var _info = os_get_info();
-
-if (_info[? "mobile"])
-{
-isMobile =true;
-}	
-}
 //isMobile =true;
 x = global.startx
 y = global.starty
