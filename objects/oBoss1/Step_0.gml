@@ -159,8 +159,14 @@ jang =pang
 break; case boss.summon:
 shakeBody = false
 if !summoned{
-	var sobj = global.shapes[irandom(3)]
-	var s = instance_create_layer(x+poff*60,y-100,layer,sobj)
+	var i=irandom(3)
+	var sobj = global.shapes[i]
+	var s = instance_create_layer(x+poff*100,y-100,layer,sobj)
+	if(i==0){
+	s.state =1	
+	s.phy_position_y +=70
+	}
+	
 	s.lifespan =true;
 	s.phy_speed_y = -3
 	s.phy_speed_x = poff*10

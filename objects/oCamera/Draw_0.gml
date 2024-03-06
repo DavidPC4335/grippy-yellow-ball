@@ -14,6 +14,12 @@ draw_rectangle(x-width,y-height,x+width,bgy+sprite_get_height(sBg)-200,0);
 
 //text = string(dx) + ","+string(bgx-sprite_get_width(sBg),bgy)
 //if(keyboard_check_pressed(vk_space)) show_message(bgx);
+
+if(paralax[get_room_index(room)]){
+draw_sprite(sBackBg,bgi,bbgx,bbgy)
+draw_sprite(sBackBg,bgi,bbgx+sprite_get_width(sBackBg),bgy)
+draw_sprite(sBackBg,bgi,bbgx-sprite_get_width(sBackBg),bgy)
+}
 draw_sprite(sBg,bgi,bgx,bgy)
 draw_sprite(sBg,bgi,bgx+sprite_get_width(sBg),bgy)
 draw_sprite(sBg,bgi,bgx-sprite_get_width(sBg),bgy)
@@ -48,6 +54,21 @@ sz[i] = random(10)
 
 
 }
+
+for(var i=0;i<array_length(cloudx);i++){
+draw_sprite_ext(sCloud,cloudi[i],cloudx[i],cloudy[i],cloudsz[i],cloudsz[i],0,c_white,cloudA[i]);
+cloudx[i]+=cloudSpd[i];
+
+
+if(cloudx[i] < (x-room_width/2)-400){
+cloudx[i] =	x+room_width/2 + 250
+cloudy[i] = irandom_range(-200,50);
+cloudi[i] = irandom(10);
+cloudSpd[i] = random_range(-3,-0.5);
+cloudsz[i] = random_range(0.8,1.1);
+}
+}
+
 draw_set_alpha(1);
 
 

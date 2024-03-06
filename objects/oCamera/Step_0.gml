@@ -3,7 +3,7 @@ if(!init){
 	init = true
 var p = get_level(room);
 col = global.col[p[0]][p[1]]
-for(var i=0;i<40;i++){
+for(var i=0;i<30;i++){
 	ex[i] = random(room_width)
 	ey[i] = random(room_height)
 	ls[i] = random(1);
@@ -11,6 +11,15 @@ for(var i=0;i<40;i++){
 	spdx[i] = random_range(-2,2);
 	spdy[i] = random_range(-2,2)
 }	
+//init clouds
+for(var i=0;i< 13;i++){
+cloudx[i] = i*(room_width/10)+irandom_range(-50,50);
+cloudy[i] = irandom_range(-200,100);
+cloudi[i] = irandom(10);
+cloudSpd[i] = random_range(-3,-0.5);
+cloudA[i] = random_range(0.2,0.6)
+cloudsz[i] = random_range(0.8,1.1);
+}
 }
 
 if(instance_exists(oPlayer)){
@@ -89,15 +98,22 @@ if(instance_exists(oPlayer)){
 if(!locked){
 	dx = (oPlayer.x-px)
 	dy = (oPlayer.y-py)
-
-	bgx+=(dx/10)
-	bgy+=(dy/15)
+	bgy+=(dy/15)	
+	bgx+=(dx/9)
+	//parallax background scroll factor
+	bbgx+=(dx/17);
+	
+	bbgy+=dy/15
 	gy+=(dy/15)
 	gx+=(dx/10)
 
 	var wi = sprite_get_width(sBg)
 	if(point_distance(bgx,0,oPlayer.x,0)>wi){
 	bgx += wi*sign(oPlayer.x-bgx)
+	//show_message("changed")
+	}
+	if(point_distance(bbgx,0,oPlayer.x,0)>wi){
+	bbgx += wi*sign(oPlayer.x-bbgx)
 	//show_message("changed")
 	}
 }
