@@ -96,6 +96,7 @@ if os_browser = browser_safari_mobile or os_browser = browser_safari{
 else{
 	window_set_size(a, b);
 }
+global.scale = b/room_width
 }
 if(instance_exists(oPlayer)){
 if(!locked){

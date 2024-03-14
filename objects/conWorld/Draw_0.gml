@@ -30,7 +30,7 @@ draw_sprite_ext(sPauseBtn,0,dx,dy,1,1,0,c_ltgray,1);
 }
 
 
-if(global.isMobile){
+if(global.isMobile && instance_exists(oPlayer)){
 	//drawing pauseBtn
 
 	draw_set_color(c_white);
