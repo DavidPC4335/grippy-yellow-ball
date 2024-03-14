@@ -31,7 +31,6 @@ if starOn>0{
 
 }
 if(transTime<=0){
-	drawStars = !(global.nextRoom == gameRoom)
 	if(!instance_exists(oCursor)){instance_create_depth(0,0,0,oCursor)}
 	var d1 = (abs(mouse_x-384)<sprite_get_width(sTitle)/2 && abs(mouse_y-160)<sprite_get_height(sTitle)/2)
 	var d2 =(abs(mouse_x-992)<sprite_get_width(sCont)/2 && abs(mouse_y-160)<sprite_get_height(sCont)/2)
@@ -39,13 +38,13 @@ if(transTime<=0){
 		if(!pd1) audio_play_sound(soundHover,1,0)
 			pd1 =true
 		
-		if(drawStars)draw_sprite(sCont,0,992,160);
+		draw_sprite(sCont,0,992,160);
 		draw_sprite_ext(sTitle,0,384,160,1.2,1.2,0,c_white,1);
 		if(mouse_check_button_pressed(mb_left)){
 		audio_play_sound(soundClick,1,0)	
 		room_goto(Titlescreen)
 		}
-	}else if drawStars{
+	}else{
 		pd1 =false
 		draw_sprite(sTitle,0,384,160);
 		if(d2){
@@ -60,11 +59,11 @@ if(transTime<=0){
 			pd2 =false
 		draw_sprite(sCont,0,992,160);	
 		}
-	}else{draw_sprite(sTitle,0,384,160);}
+	}
 	
 	
-	
-	if !drawStars{
+/*	
+	if drawStars{
 		draw_set_font(portalFont)
 		draw_set_color(c_black)
 		draw_text_transformed(t,room_height/2,"You Win!!",3,3,0);
@@ -73,7 +72,7 @@ if(transTime<=0){
 		t+=8
 		if(t>2000) t=-500
 	}
-
+*/
 
 ///room_goto(global.nextRoom);	
 }

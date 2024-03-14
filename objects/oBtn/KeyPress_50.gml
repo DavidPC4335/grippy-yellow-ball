@@ -1,1 +1,0 @@
-if debug room_goto(gameRoom2)

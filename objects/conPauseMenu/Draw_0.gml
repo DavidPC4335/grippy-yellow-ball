@@ -66,7 +66,7 @@ for(var i=0;i<array_length(global.shapeDiscovered);i++){
 }
 
 drawn =false
-}else if (room!=TransitionRoom && ( room !=Titlescreen || global.isMobile)){
+}else if (room!=TransitionRoom){
 drawn =true;
 if(instance_exists(oCamera)){
 x = oCamera.x+room_width/2 - 70;

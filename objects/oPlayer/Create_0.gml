@@ -22,3 +22,9 @@ hitFrames=0
 audio_stop_all()
 var p = get_level(room)
 dcol = global.col[p[0],p[1]]
+
+particle_col = c_yellow
+if global.levelStars[2][1][0]{
+sprite_index = sFriend
+particle_col = c_orange
+}

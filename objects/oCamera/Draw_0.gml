@@ -11,7 +11,6 @@ draw_rectangle(x-width,y-height,x+width,bgy+sprite_get_height(sBg)-200,0);
 }else{
 	draw_rectangle(x-width,y-height,x+width,y+width,0);
 }
-
 //text = string(dx) + ","+string(bgx-sprite_get_width(sBg),bgy)
 //if(keyboard_check_pressed(vk_space)) show_message(bgx);
 

@@ -77,6 +77,27 @@ if(play){
 	}
 	draw_sprite_ext(sContinueBtn,0,btnx,btny,xsc,ysc,0,c_white,1);
 	canPlay = (p==c)
+	if(global.levelStars[2][1][0]){
+	var btnx = x+120+sprite_get_width(sPortal) - 25,btny = y+80
+	if(point_distance(btnx,btny,mouse_x,mouse_y)<(sprite_get_width(sContinueBtn)*xsc2)-5){
+		if(xsc2 == 0.3){
+			audio_play_sound(soundHover,3,0)
+		}
+		else if(mouse_check_button_pressed(mb_left) && t2>2){
+			room_goto(cutScene2);	
+		}
+		xsc2 =0.4
+		ysc2 = 0.4
+	}else{
+	xsc2 =0.3
+	ysc2 =0.3
+	}
+	
+	
+	draw_sprite_ext(sContinueBtn,0,btnx,btny,xsc2,ysc2,0,c_white,1);
+	//canPlay = (p==c)
+	}
+
 	}else{
 		
 		if(sprite_index = sPortal){

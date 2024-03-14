@@ -14,3 +14,5 @@ break;
 global.stars =0;
 play =false
 audio_stop_all()
+color = c_yellow
+init =false

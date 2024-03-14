@@ -3,7 +3,9 @@
 function play_theme(rm){
 	var sound =Theme1;
 switch(rm){
+	
 	case cutScene: sound = cutsceneTheme;break;
+	case cutScene2: sound = cutsceneTheme2;break;
 case Titlescreen:sound = Theme0;break;
 case gameRoom:sound = Theme2;break;
 case gameRoom2:sound = Theme1;break;

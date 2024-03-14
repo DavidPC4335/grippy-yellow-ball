@@ -1,3 +1,20 @@
+if(!init){
+init =true
+if global.levelStars[2][1][0]{
+	if(instance_number(oTitlePlayer) ==1){
+		var p = instance_create_depth(100,y,depth,oTitlePlayer);
+		with p{
+			sx = other.sx
+			sprite_index = sFriend
+			color = c_orange
+		}
+	}
+}
+}
+
+
+
+
 if phy_position_y>1400{
 	d++
 phy_position_y = sy

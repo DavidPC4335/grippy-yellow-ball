@@ -102,7 +102,8 @@ room_restart()
 }
 if hit&&!dead&&hitFrames<=0{
 repeat 10{
-	instance_create_layer(x,y,"platforms",oParticle)
+		var p = instance_create_layer(x,y,"platforms",oParticle)
+		p.col = particle_col
 }
 hit =false
 hitFrames =15
@@ -113,7 +114,10 @@ hit =false
 phy_active = !dead
 if(hp<=0&&!dead){
 	dead =true;
-	repeat 10{instance_create_layer(x,y,"platforms",oParticle)}
+	repeat 10{
+		var p = instance_create_layer(x,y,"platforms",oParticle)
+		p.col = particle_col
+		}
 	audio_play_sound(soundDead,1,0)
 	}
 if(phy_position_y>1500 &&!dead){hp=0;hit =true}

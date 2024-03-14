@@ -54,6 +54,9 @@ if(shake_duration >0){
 shake_duration--;
 shx +=random_range(-shake_intensity,shake_intensity)
 shy +=random_range(-shake_intensity,shake_intensity)
+}else{
+shx=0;
+shy=0;
 }
 		
 if(d>15){
@@ -120,5 +123,6 @@ if(!locked){
 	px=oPlayer.x
 	py=oPlayer.y
 }
-
+if(!conPauseMenu.pausedGame){
 play_theme(room);
+}

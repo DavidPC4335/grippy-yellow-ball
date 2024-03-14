@@ -83,9 +83,9 @@ function draw_wake(num){
 sTick = 0.5
 
 function draw_heath(){
-	var x1 = 8800,y1 = 10
+	var x1 = 8750,y1 = 10
 	draw_set_color(c_red)
-	draw_roundrect(x1,y1,x1+hp*100,y1+50,0);
+	draw_roundrect(x1,y1,x1+hp*90,y1+50,0);
 	draw_set_color(c_black);
-	draw_roundrect(x1,y1,x1+1000,y1+50,1);
+	draw_roundrect(x1,y1,x1+900,y1+50,1);
 }

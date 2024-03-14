@@ -11,9 +11,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 57,
-  "bbox_top": 7,
-  "bbox_bottom": 43,
+  "bbox_right": 52,
+  "bbox_top": 2,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -28,7 +28,8 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3185e438-b4d0-48bf-917d-d3810cc6a3c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"047508f8-7fa2-494b-985a-77a90ccab4f0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a48da67-88c5-4ccf-9068-cfd85fe45271",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -40,12 +41,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"96dc960e-236e-48f5-b7da-2bdb53d09494","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3185e438-b4d0-48bf-917d-d3810cc6a3c1","path":"sprites/sFlag/sFlag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83f9e7db-782b-4098-aee5-fee031f2ec51","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"047508f8-7fa2-494b-985a-77a90ccab4f0","path":"sprites/sFlag/sFlag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fe72bf81-aa7e-49c6-8680-939ee1ac817c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a48da67-88c5-4ccf-9068-cfd85fe45271","path":"sprites/sFlag/sFlag.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

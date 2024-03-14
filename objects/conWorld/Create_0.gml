@@ -1,4 +1,6 @@
+if(room!= Titlescreen){
 shapeDiscovered = global.shapeDiscovered
+}
 cx=0
 cy=0;
 rng =300

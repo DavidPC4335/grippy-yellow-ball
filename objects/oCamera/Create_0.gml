@@ -1,5 +1,5 @@
 //show_debug_overlay(true);
-paralax = [true,false,true,true,true,true,false]
+paralax = [true,true,true,true,true,true,false]
 //x = 0
 //y = 0
 colours = [c_black,make_color_rgb(69,123,149),#5A00B2,make_color_rgb(160,160,170),c_black,c_black]

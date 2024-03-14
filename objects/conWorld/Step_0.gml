@@ -1,3 +1,5 @@
+
+if(instance_exists(oPlayer)){
 for(var i=0;i<array_length(global.shapes);i++){
 	if(!global.shapeDiscovered[i]){
 		with(global.shapes[i]){
@@ -17,8 +19,8 @@ if(global.isMobile){
 		if(dist>jr){
 			if(instance_exists(conPauseMenu)){
 				if(!conPauseMenu.pausedGame && my>room_height/2){
-			jx = mx;
-			jy = my;
+					jx = mx;
+					jy = my;
 				}
 			}
 			//show_message(string(jx)+","+string(jy));
@@ -37,4 +39,5 @@ if(global.isMobile){
 		joffy = lengthdir_y(jr,point_direction(jx,jy,mx,my))	
 	}
 	}
+}
 }

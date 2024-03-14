@@ -36,7 +36,7 @@ init =true
 
 		if(x>room_width/1.5){
 			image_blend = global.col[get_room_index(global.nextRoom)/3][get_room_index(global.nextRoom)%3]
-			if(global.nextRoom == gameRoom) image_blend = global.col[2][0];
+			if(get_room_index(global.nextRoom) == 0) image_blend = global.col[2][0];
 		}else{
 			image_blend = global.portalCol;
 			if(global.nextRoom == gameRoom) image_blend = c_red

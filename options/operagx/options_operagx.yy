@@ -2,8 +2,8 @@
   "resourceType": "GMOperaGXOptions",
   "resourceVersion": "1.0",
   "name": "operagx",
-  "option_operagx_version": "1.0.0.2",
-  "option_operagx_next_version": "1.0.0.3",
+  "option_operagx_version": "1.0.1.2",
+  "option_operagx_next_version": "1.0.1.3",
   "option_operagx_game_name": "Grippy Yellow Ball",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,
@@ -13,6 +13,6 @@
   "option_operagx_team_name": "davidpc4335 studio",
   "option_operagx_team_id": "6b82fb4e-3d93-4065-a8b9-4f2b6cd191f5",
   "option_operagx_editUrl": "https://create.gx.games/game/ea2e10d2-d12a-41b5-99ba-a24255e2e5a2/edit",
-  "option_operagx_internalShareUrl": "https://gx.games/games/3iodbf/gyb-github/tracks/ac221a12-b22d-43e5-8645-5060aa7031ef/",
+  "option_operagx_internalShareUrl": "https://gx.games/games/3iodbf/grippy-yellow-ball/tracks/ac221a12-b22d-43e5-8645-5060aa7031ef/",
   "option_operagx_publicShareUrl": "https://gx.games/games/3iodbf/grippy-yellow-ball/",
 }

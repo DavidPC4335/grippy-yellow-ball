@@ -11,4 +11,7 @@ image_blend = c_white
 global.rooms = [[gameRoom,gameRoom2,gameRoom3],[gameRoom4,gameRoom5,gameRoom6]]
 gpu_set_tex_filter(false);
 xsc =1
-ysc=1
+
+xsc =1
+xsc2=1
+ysc2=1
