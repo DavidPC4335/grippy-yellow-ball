@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sGrass",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"129f183a-0b6d-4c3d-9c3c-e99b5a3278b6","name":"129f183a-0b6d-4c3d-9c3c-e99b5a3278b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"129f183a-0b6d-4c3d-9c3c-e99b5a3278b6","name":"129f183a-0b6d-4c3d-9c3c-e99b5a3278b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sGrass",
     "autoRecord":true,
     "backdropHeight":768,

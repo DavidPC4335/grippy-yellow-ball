@@ -13,6 +13,10 @@ if global.levelStars[2][1][0]{
 }
 
 
+if place_meeting(x,y,oVortex){
+	room_goto(openWorldRoom)	
+}
+
 
 
 if phy_position_y>1400{
@@ -26,7 +30,7 @@ phy_speed_x=0
 
 
 
-repeat 10{instance_create_layer(x,y,layer,oParticle)}
+repeat 10{instance_create_layer(x,y,"Instances",oParticle)}
 }
 
 if point_distance(x,y,mouse_x,mouse_y)<32&&mouse_check_button_pressed(mb_left){

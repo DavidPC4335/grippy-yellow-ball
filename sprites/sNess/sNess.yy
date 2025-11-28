@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sNess",
   "bboxMode":0,
   "bbox_bottom":99,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ef64ead1-c711-4ad2-bc63-4468c4b01796","name":"ef64ead1-c711-4ad2-bc63-4468c4b01796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef64ead1-c711-4ad2-bc63-4468c4b01796","name":"ef64ead1-c711-4ad2-bc63-4468c4b01796","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sNess",
     "autoRecord":true,
     "backdropHeight":768,

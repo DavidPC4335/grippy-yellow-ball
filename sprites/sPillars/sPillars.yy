@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sPillars",
   "bboxMode":0,
   "bbox_bottom":730,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0743c789-b0c4-4da7-907f-952211025e5f","name":"0743c789-b0c4-4da7-907f-952211025e5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0743c789-b0c4-4da7-907f-952211025e5f","name":"0743c789-b0c4-4da7-907f-952211025e5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sPillars",
     "autoRecord":true,
     "backdropHeight":768,

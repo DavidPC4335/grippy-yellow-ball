@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sEnemy",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bf24bf66-02d3-4709-bb23-ad1b8e6525fa","name":"bf24bf66-02d3-4709-bb23-ad1b8e6525fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"83cf4c71-f4e1-4546-bf72-5969de465a76","name":"83cf4c71-f4e1-4546-bf72-5969de465a76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"06865a86-8e53-4f23-8fa9-3b3584de14ea","name":"06865a86-8e53-4f23-8fa9-3b3584de14ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bf24bf66-02d3-4709-bb23-ad1b8e6525fa","name":"bf24bf66-02d3-4709-bb23-ad1b8e6525fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83cf4c71-f4e1-4546-bf72-5969de465a76","name":"83cf4c71-f4e1-4546-bf72-5969de465a76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06865a86-8e53-4f23-8fa9-3b3584de14ea","name":"06865a86-8e53-4f23-8fa9-3b3584de14ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -34,7 +34,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sEnemy",
     "autoRecord":true,
     "backdropHeight":768,

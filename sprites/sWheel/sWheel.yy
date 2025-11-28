@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sWheel",
   "bboxMode":2,
   "bbox_bottom":64,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7155106c-1811-4898-9e98-bc324853bebf","name":"7155106c-1811-4898-9e98-bc324853bebf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7155106c-1811-4898-9e98-bc324853bebf","name":"7155106c-1811-4898-9e98-bc324853bebf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sWheel",
     "autoRecord":true,
     "backdropHeight":768,

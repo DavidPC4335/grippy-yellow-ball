@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sSignBg",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bd87cdd1-a240-4565-8fb7-e4736689aa50","name":"bd87cdd1-a240-4565-8fb7-e4736689aa50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd87cdd1-a240-4565-8fb7-e4736689aa50","name":"bd87cdd1-a240-4565-8fb7-e4736689aa50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sSignBg",
     "autoRecord":true,
     "backdropHeight":768,

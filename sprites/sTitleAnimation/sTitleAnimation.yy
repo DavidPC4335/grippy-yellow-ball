@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sTitleAnimation",
   "bboxMode":0,
   "bbox_bottom":767,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"307a6a80-54fe-43c6-b146-015794f70516","name":"307a6a80-54fe-43c6-b146-015794f70516","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"629124c6-29e3-4f48-a473-d61639726834","name":"629124c6-29e3-4f48-a473-d61639726834","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f91a7184-2c96-486c-8dfa-938388d4e13c","name":"f91a7184-2c96-486c-8dfa-938388d4e13c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb1c31a5-5996-4f01-ac62-7f14941303bb","name":"cb1c31a5-5996-4f01-ac62-7f14941303bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"905eb738-29fc-457e-8057-98586cbd68d1","name":"905eb738-29fc-457e-8057-98586cbd68d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"307a6a80-54fe-43c6-b146-015794f70516","name":"307a6a80-54fe-43c6-b146-015794f70516","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"629124c6-29e3-4f48-a473-d61639726834","name":"629124c6-29e3-4f48-a473-d61639726834","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f91a7184-2c96-486c-8dfa-938388d4e13c","name":"f91a7184-2c96-486c-8dfa-938388d4e13c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb1c31a5-5996-4f01-ac62-7f14941303bb","name":"cb1c31a5-5996-4f01-ac62-7f14941303bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"905eb738-29fc-457e-8057-98586cbd68d1","name":"905eb738-29fc-457e-8057-98586cbd68d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +36,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sTitleAnimation",
     "autoRecord":true,
     "backdropHeight":768,

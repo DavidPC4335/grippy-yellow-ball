@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sPauseBG",
   "bboxMode":0,
   "bbox_bottom":721,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e92c1e97-2967-46f5-b1dd-a11687d99762","name":"e92c1e97-2967-46f5-b1dd-a11687d99762","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e92c1e97-2967-46f5-b1dd-a11687d99762","name":"e92c1e97-2967-46f5-b1dd-a11687d99762","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sPauseBG",
     "autoRecord":true,
     "backdropHeight":768,

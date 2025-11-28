@@ -16,9 +16,9 @@
   "exportToGame":true,
   "extensionVersion":"1.0.0",
   "files":[
-    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"ImageLoadBar.js","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"ImageLoadBar.js","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"ImageLoadBar_hook","argCount":6,"args":[2,2,2,2,2,2,],"documentation":"","externalName":"ImageLoadBar_hook","help":"","hidden":false,"kind":11,"name":"ImageLoadBar_hook","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":5,"name":"","order":[],"origname":"extensions\\ImageLoadBar.js","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"","kind":5,"name":"","origname":"extensions\\ImageLoadBar.js","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,

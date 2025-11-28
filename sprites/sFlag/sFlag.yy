@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sFlag",
   "bboxMode":0,
   "bbox_bottom":48,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"047508f8-7fa2-494b-985a-77a90ccab4f0","name":"047508f8-7fa2-494b-985a-77a90ccab4f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6a48da67-88c5-4ccf-9068-cfd85fe45271","name":"6a48da67-88c5-4ccf-9068-cfd85fe45271","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"047508f8-7fa2-494b-985a-77a90ccab4f0","name":"047508f8-7fa2-494b-985a-77a90ccab4f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a48da67-88c5-4ccf-9068-cfd85fe45271","name":"6a48da67-88c5-4ccf-9068-cfd85fe45271","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sFlag",
     "autoRecord":true,
     "backdropHeight":768,

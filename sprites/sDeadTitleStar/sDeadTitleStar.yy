@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sDeadTitleStar",
   "bboxMode":0,
   "bbox_bottom":255,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d8c216c5-89cc-4d64-80b9-9ab4b56a257d","name":"d8c216c5-89cc-4d64-80b9-9ab4b56a257d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d8c216c5-89cc-4d64-80b9-9ab4b56a257d","name":"d8c216c5-89cc-4d64-80b9-9ab4b56a257d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sDeadTitleStar",
     "autoRecord":true,
     "backdropHeight":768,

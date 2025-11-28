@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sLock",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d13d9df2-9f1e-49ee-bb9e-aa10c42188e2","name":"d13d9df2-9f1e-49ee-bb9e-aa10c42188e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d13d9df2-9f1e-49ee-bb9e-aa10c42188e2","name":"d13d9df2-9f1e-49ee-bb9e-aa10c42188e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sLock",
     "autoRecord":true,
     "backdropHeight":768,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sThroneBG",
   "bboxMode":0,
   "bbox_bottom":730,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"44a36d64-971e-4534-9ec3-6de1e83a272c","name":"44a36d64-971e-4534-9ec3-6de1e83a272c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44a36d64-971e-4534-9ec3-6de1e83a272c","name":"44a36d64-971e-4534-9ec3-6de1e83a272c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sThroneBG",
     "autoRecord":true,
     "backdropHeight":768,

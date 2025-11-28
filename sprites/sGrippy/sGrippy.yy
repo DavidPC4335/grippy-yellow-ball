@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sGrippy",
   "bboxMode":0,
   "bbox_bottom":89,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4e25daf2-7fef-4320-9e8e-dc8512d9fdfc","name":"4e25daf2-7fef-4320-9e8e-dc8512d9fdfc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4e25daf2-7fef-4320-9e8e-dc8512d9fdfc","name":"4e25daf2-7fef-4320-9e8e-dc8512d9fdfc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sGrippy",
     "autoRecord":true,
     "backdropHeight":768,

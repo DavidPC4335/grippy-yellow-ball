@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sBoss",
   "bboxMode":2,
   "bbox_bottom":254,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"23fa34ca-f619-455c-a9a7-81ff4839ec63","name":"23fa34ca-f619-455c-a9a7-81ff4839ec63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"23fa34ca-f619-455c-a9a7-81ff4839ec63","name":"23fa34ca-f619-455c-a9a7-81ff4839ec63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sBoss",
     "autoRecord":true,
     "backdropHeight":768,

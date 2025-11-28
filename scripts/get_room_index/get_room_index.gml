@@ -19,5 +19,5 @@ function get_room_index(rm){
 		case hiddenRoom:
 		return 1
 	}
-	return -1;
+	return 1;
 }

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sPauseBtn",
   "bboxMode":0,
   "bbox_bottom":70,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4472e1e2-daec-4af9-8a13-d6a0cb0d6b0d","name":"4472e1e2-daec-4af9-8a13-d6a0cb0d6b0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a5d92adf-e14d-41a9-969c-3068505e8dbf","name":"a5d92adf-e14d-41a9-969c-3068505e8dbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4472e1e2-daec-4af9-8a13-d6a0cb0d6b0d","name":"4472e1e2-daec-4af9-8a13-d6a0cb0d6b0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a5d92adf-e14d-41a9-969c-3068505e8dbf","name":"a5d92adf-e14d-41a9-969c-3068505e8dbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"sPauseBtn",
     "autoRecord":true,
     "backdropHeight":768,

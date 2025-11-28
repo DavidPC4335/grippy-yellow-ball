@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"get_wall_sprite",
   "isCompatibility":false,
   "isDnD":false,
